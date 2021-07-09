@@ -28,8 +28,14 @@
   width: 85%;
 }
 
+.navbar-collapse{
+  width: 100% !important;
+  display: flex !important;
+  justify-content: space-around;
+}
+
 .navbar-nav{
-  width: 45% !important;
+  width: 55% !important;
   display: flex !important;
   justify-content: space-around;
 }
@@ -114,3 +120,20 @@
   display: flex;
 }
 
+
+/************************** WHATSAP ****************************************/
+.whatsapp{
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+
+.whatsapp img{
+  width: 80px;
+}
+
+/************************* FOOTER ****************************/
+.container-footer{
+  height: 400px;
+  background-color: rgb(24, 24, 24);
+}

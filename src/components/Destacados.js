@@ -51,3 +51,4 @@ export const Destacados = (props) => {
     </div>
     )
 }
+export default Destacados
