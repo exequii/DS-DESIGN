@@ -1,0 +1,13 @@
+#error{
+    min-height: 630px;
+    background: rgb(119,11,11);
+    background: linear-gradient(117deg, rgba(119,11,11,1) 0%, rgba(199,65,39,1) 45%, rgba(244,244,244,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#error img{
+    width: 30%;
+}

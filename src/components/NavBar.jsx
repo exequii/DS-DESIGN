@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-
+import "./css/navbar.css"
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
@@ -37,10 +37,10 @@ export class NavBar extends Component {
                         <Nav.Link href='/sillas'>Sillas</Nav.Link>
 
                         <NavDropdown title="Estilo Industrial" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="/industrial">Bancos Vestuario</NavDropdown.Item>
-                            <NavDropdown.Item href="/industrial">Bibloteca Estanteria</NavDropdown.Item>
-                            <NavDropdown.Item href="/industrial">Escritorio</NavDropdown.Item>
-                            <NavDropdown.Item href="/industrial">Taburetes</NavDropdown.Item>
+                            <NavDropdown.Item href="/industrial?bancos">Bancos Vestuario</NavDropdown.Item>
+                            <NavDropdown.Item href="/industrial?biblotecas">Bibloteca Estanteria</NavDropdown.Item>
+                            <NavDropdown.Item href="/industrial?escritorios">Escritorio</NavDropdown.Item>
+                            <NavDropdown.Item href="/industrial?taburetes">Taburetes</NavDropdown.Item>
                         </NavDropdown>
 
                         <Nav.Link href='/contacto'>Contacto</Nav.Link>
@@ -49,9 +49,8 @@ export class NavBar extends Component {
                 </Navbar.Collapse>
 
                 <div className="iconos">
-                    <a href=""><img alt="" src={instagram}></img></a>
-                    <a href=""><img alt="" src={facebook}></img></a>
-                    <a href=""><img alt="" src=""></img></a>
+                    <a href="https://wwww.instagram.com/design_eds/" target="_blank" rel="noopener noreferrer"><img alt="" src={instagram}></img></a>
+                    <a href="https://wwww.facebook.com/ds.design.fabrica/" target="_blank" rel="noopener noreferrer"><img alt="" src={facebook}></img></a>
                 </div>
             </Navbar>
         </div> 

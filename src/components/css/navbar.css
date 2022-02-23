@@ -1,0 +1,35 @@
+/********************************************* NAVBAR *************************************************/
+.nav-contenedor{
+    background-color: rgb(24, 24, 24) !important;
+    display: flex;
+    justify-content:  center;
+  }
+  
+  .navbar, .navbar-expand-lg, .navbar-dark, .bg-dark{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+    width: 85%;
+  }
+  
+  .navbar-collapse{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-around;
+  }
+  
+  .navbar-nav{
+    width: 55% !important;
+    display: flex !important;
+    justify-content: space-around;
+  }
+  
+  .iconos{
+    display: flex;
+    align-items: center;
+  }
+  
+  .iconos img{
+    width: 30px;
+    margin-right: 5px;
+  }

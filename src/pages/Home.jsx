@@ -19,12 +19,16 @@ export const Home = () => {
             <Destacados
                 name1="Bancos Altos"
                 image1={Destacados1}
+                url1=""
                 name2="Taburetes Altos"
                 image2={Destacados2}
+                url2=""
                 name3="Banco Vestuario"
                 image3={Destacados3}
+                url3=""
                 name4="Estanteria Bibloteca"
-                image4={Destacados4}>
+                image4={Destacados4}
+                url4="">
             </Destacados>
             <Whatsapp></Whatsapp>
             <Footer></Footer>

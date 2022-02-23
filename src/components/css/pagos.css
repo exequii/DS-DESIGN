@@ -1,0 +1,8 @@
+#pagos{
+    display: flex;
+    max-height: 200px;
+}
+
+#pagos img{
+    width: 200px;
+}

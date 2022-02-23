@@ -1,0 +1,93 @@
+/************************* FOOTER ****************************/
+.container-footer{
+    min-height: 250px;
+    background-color: rgb(24, 24, 24);
+  }
+  
+  .footer{
+    min-height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .footer h4{
+    color: white;
+  }
+  
+  .footer p{
+    color: grey;
+  }
+  
+  .footer i{
+    color: white;
+  }
+  
+  .form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .form-container button{
+    text-decoration: none;
+    padding: 5px 15px;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .form-container button:hover{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+  }
+  
+  .form-container input{
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    height: 35px;
+  }
+  
+  .about-container{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-container h4{
+    margin-top: 20px;
+  }
+  
+  .about-container p a{
+    color: grey;
+    
+  }
+  
+  .about-container p a:hover{
+    color:rgb(211, 211, 211);
+    text-decoration: none;
+  }
+  
+  .info-container{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info-container h4{
+    margin-top: 20px;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .iconitos{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .iconitos i{
+    font-size: 1.5em;
+  }
+

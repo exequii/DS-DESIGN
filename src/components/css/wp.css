@@ -1,0 +1,11 @@
+/************************** WHATSAP ****************************************/
+.whatsapp{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+  }
+  
+  .whatsapp img{
+    width: 80px;
+  }
+  

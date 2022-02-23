@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./css/carrousel3d.css"
 import {Carousel} from '3d-react-carousal';
-
 import Boletines from '../assets/boletines.jpg'
 import Industrial1 from '../assets/industrial1.jpeg'
 import Industrial2 from '../assets/industrial2.jpg'
@@ -13,9 +13,7 @@ export const Carousel3d = () => {
         <img  src={Industrial2} alt="3" />  ];
       return (
         <div className="containerCarousel3d">
-          
             <Carousel slides={slides} autoplay={true} interval={4000}/>
-    
         </div>
       );
     }
