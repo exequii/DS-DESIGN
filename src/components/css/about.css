@@ -20,5 +20,5 @@
 
 #aboutus img{
     max-width: 10%;
-    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    filter: drop-shadow(0 2px 5px #00000080);
 }

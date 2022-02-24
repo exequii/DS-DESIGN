@@ -39,7 +39,7 @@ export class NavBar extends Component {
                         <NavDropdown title="Estilo Industrial" id="collasible-nav-dropdown">
                             <NavDropdown.Item href="/industrial?bancos">Bancos Vestuario</NavDropdown.Item>
                             <NavDropdown.Item href="/industrial?biblotecas">Bibloteca Estanteria</NavDropdown.Item>
-                            <NavDropdown.Item href="/industrial?escritorios">Escritorio</NavDropdown.Item>
+                            <NavDropdown.Item href="/industrial?mesas">Escritorios y Mesas</NavDropdown.Item>
                             <NavDropdown.Item href="/industrial?taburetes">Taburetes</NavDropdown.Item>
                         </NavDropdown>
 
