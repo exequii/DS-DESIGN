@@ -5,6 +5,9 @@ export const Producto = (props) => {
     return (
                 <div className="col m-5" id="producto">
                     <img src={props.image1} className="imagen" alt=""></img>
+                    <span className='description'>
+                        {props.descripcion}
+                    </span>
                     <p>{props.name1}</p>
                     {
                         props.name1!=null

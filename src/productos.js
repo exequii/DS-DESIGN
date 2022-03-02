@@ -129,19 +129,19 @@ const articulos = {
     Barreras: [
         {
             nombre: "Barrera Sanitaria Standard",
-            descripcion: "",
+            descripcion: "Medidas 70x70cm. Caño 20x15mm o 30x10mm. Pintura Epoxi blanca o negra. Lona de cristal de 500 micrones. Felpa Antideslizante inferior.",
             link: "",
             imagen: Barrera1
         },
         {
             nombre: "Barrera Sanitaria C/boca de Paso Chica",
-            descripcion: "",
+            descripcion: "Barrera",
             link: "",
             imagen: Barrera2
         },
         {
             nombre: "Barrera Sanitaria C/boca de Paso Grande",
-            descripcion: "",
+            descripcion: "Barrera",
             link: "",
             imagen: Barrera3
         }
