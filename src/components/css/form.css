@@ -28,3 +28,15 @@
     text-align: start;
 }
 
+.succes{
+    margin-top: 15px;
+    color: rgb(15, 163, 15);
+    font-style: italic;
+}
+
+.error{
+    margin-top: 15px;
+    color:rgb(122, 13, 13);
+    font-style: italic;
+}
+

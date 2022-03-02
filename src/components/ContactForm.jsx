@@ -1,6 +1,7 @@
 import {React , useRef, useState} from 'react'
 import "./css/form.css"
-import emailjs, { init } from '@emailjs/browser'
+import emailjs from '@emailjs/browser'
+import Swal from "sweetalert2"
 
 export const ContactForm = (props) => {
 
@@ -22,14 +23,23 @@ export const ContactForm = (props) => {
   }
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    e.preventDefault()
     emailjs.sendForm('service_o5i91ra', 'template_9s2zccn', form.current, 'itWJhBeL5B3dSyqYj')
       .then((result) => {
           console.log("SUCCESS! - " + result.text);
+          Swal.fire({
+            title: 'Formulario Enviado!',
+            text: 'Se ha enviado su mensaje correctamente',
+            icon: 'success',
+          })
       }, (error) => {
           console.log("ERROR! - " + error.text);
+          Swal.fire({
+            title: 'Ups!',
+            text: 'Ha ocurrido un error inesperado.',
+            icon: 'error',
+          })
       });
-      e.target.reset()
   };
 
   return (
