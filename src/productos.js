@@ -63,12 +63,6 @@ const articulos = {
         ],
         Mesas: [
             { 
-                nombre: "Escritorio Standard",
-                descripcion: "",
-                link: "",
-                imagen: ""
-            },
-            { 
                 nombre: "Escritorio con Cajonera",
                 descripcion: "",
                 link: "",
@@ -163,13 +157,13 @@ const articulos = {
             nombre: "Silla",
             descripcion: "",
             link: "",
-            imagen: "../assets/"
+            imagen: BancoAlto
         },
         {
             nombre: "Silla",
             descripcion: "",
             link: "",
-            imagen: "../assets/"
+            imagen: BancoAlto
         }
     ]
 }

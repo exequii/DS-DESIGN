@@ -1,27 +1,57 @@
-import React from 'react'
+import {React , useRef, useState} from 'react'
 import "./css/form.css"
+import emailjs, { init } from '@emailjs/browser'
 
 export const ContactForm = (props) => {
+
+  const form = useRef();
+  const [email, setEmail] = useState("");
+  const [asunto, setAsunto] = useState("Seleccione una opcion");
+  const [texto, setTexto] = useState("");
+
+  const handleChangeEmail = (event) => {
+    setEmail(event.target.value)
+  }
+
+  const handleChangeAsunto = (event) => {
+    setAsunto(event.target.value)
+  }
+
+  const handleChangeTexto = (event) => {
+    setTexto(event.target.value)
+  }
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.sendForm('service_o5i91ra', 'template_9s2zccn', form.current, 'itWJhBeL5B3dSyqYj')
+      .then((result) => {
+          console.log("SUCCESS! - " + result.text);
+      }, (error) => {
+          console.log("ERROR! - " + error.text);
+      });
+      e.target.reset()
+  };
+
   return (
     <div id="form-contact">
       <h3 className='mb-5'>{props.motivo}</h3>
-      <form className="g-3 needs-validation">
+      <form ref={form} className="g-3 needs-validation" onSubmit={sendEmail}>
         <div className="mb-3">
-          <label for="exampleFormControlInput1" className="form-label">Correo Electronico:</label>
-          <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Introduzca su email" required/>
+          <label htmlFor="email" className="form-label">Correo Electronico:</label>
+          <input type="email" className="form-control" name="usuario" id="email" placeholder="Introduzca su email" value={email} onChange={handleChangeEmail} required/>
         </div>
         <div className="mb-3">
-          <label for="exampleFormControlInput2" className="form-label">Motivo:</label>
-          <select className="form-control" id="exampleFormControlInput1" required>
-              <option selected="true" disabled>Seleccione una opcion..</option>
-              <option>Cotizacion</option>
-              <option>Reclamo</option>
-              <option>Sugerencia</option>
+          <label htmlFor="asunto" className="form-label">Motivo:</label>
+          <select className="form-control" id="asunto" name="asunto" value={asunto} onChange={handleChangeAsunto} required>
+              <option disabled>Seleccione una opcion..</option>
+              <option value="Cotizacion">Cotizacion</option>
+              <option value="Reclamo">Reclamo</option>
+              <option value="Sugerencias">Sugerencia</option>
           </select>
         </div>
         <div className="mb-3">
-          <label for="exampleFormControlTextarea1" className="form-label">Comentarios:</label>
-          <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje..." required></textarea>
+          <label htmlFor="texto" className="form-label">Comentarios:</label>
+          <textarea className="form-control" id="texto" name="texto" rows="3" placeholder="Mensaje..." value={texto} onChange={handleChangeTexto} required></textarea>
         </div>
         <div>
           <button className="btn btn-primary" type="submit">Enviar</button>
