@@ -10,6 +10,16 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
   }
+
+  .info-container a{
+    text-decoration: none;
+   color: grey;
+  }
+
+  .info-container a:hover{
+    text-decoration: none;
+   color: rgb(211, 211, 211);
+  }
   
   .footer h4{
     color: white;

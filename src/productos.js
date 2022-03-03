@@ -55,7 +55,7 @@ const articulos = {
         ],
         Biblotecas: [
             { 
-                nombre: "Estanteria Bibloteca",
+                nombre: "Estanteria Biblioteca",
                 descripcion: "",
                 link: "https://articulo.mercadolibre.com.ar/MLA-832742971-estanteria-biblioteca-de-hierro-y-madera-industrial-6-planos-_JM?searchVariation=48631442701#searchVariation=48631442701&position=7&search_layout=stack&type=item&tracking_id=c6335bbc-f464-4f34-8002-afaad25ac6ca",
                 imagen: Estanteria

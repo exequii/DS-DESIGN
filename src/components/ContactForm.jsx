@@ -59,6 +59,7 @@ export const ContactForm = (props) => {
               <option value="Cotizacion">Cotizacion</option>
               <option value="Reclamo">Reclamo</option>
               <option value="Sugerencias">Sugerencia</option>
+              <option value="Otros">Otros</option>
           </select>
         </div>
         <div className="mb-3">
