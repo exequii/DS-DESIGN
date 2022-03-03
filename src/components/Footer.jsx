@@ -34,6 +34,7 @@ export const Footer = () => {
                         </div>
                         
             </footer>
+            <p id="me">Desarrollado por <a href='https://www.linkedin.com/in/ezequiel-sans%C3%B3n/' target='_blank' rel="noopener noreferrer">Ezequiel Sansón</a></p>
         </div>
     )
 }
