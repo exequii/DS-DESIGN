@@ -20,7 +20,7 @@ export const Footer = () => {
                             <h4 className='mb-3'>DS Design</h4>
                             <p><i className="fa fa-fw fa-map-marker"></i>Mataderos, CABA.</p>
                             <p><i className="fa fa-fw fa-phone"></i> 4683 - 5406</p>
-                            <p><i className="fa fa-fw fa-envelope"></i> esanson22ar@yahoo.com.ar</p>
+                            <p><i className="fa fa-fw fa-envelope"></i> sanson22ar@yahoo.com.ar</p>
                         </div>
 
                         <div className="info-container">

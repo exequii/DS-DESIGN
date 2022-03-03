@@ -29,7 +29,7 @@ export const Home = () => {
                 name3="Banco Vestuario"
                 image3={Destacados3}
                 url3=""
-                name4="Estanteria Bibloteca"
+                name4="Estanteria Biblioteca"
                 image4={Destacados4}
                 url4="">
             </Destacados>

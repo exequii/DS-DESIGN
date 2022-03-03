@@ -6,6 +6,7 @@ import NavBar from '../components/NavBar'
 import Banner from '../components/Banner'
 import Footer from '../components/Footer'
 import {Producto} from '../components/Producto'
+import Whatsapp from '../components/Whatsapp'
 
 import Articulos from "../productos.js"
 
@@ -75,6 +76,7 @@ export const Productos = () => {
                     }
                 </div>
             </div>
+            <Whatsapp></Whatsapp>
             <Footer></Footer>
         </div>
     )
