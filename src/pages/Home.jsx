@@ -11,7 +11,10 @@ import Destacados2 from '../assets/destacados2.jpg'
 import Destacados3 from '../assets/destacados3.jpg'
 import Destacados4 from '../assets/destacados4.jpg'
 
+import "../components/css/generalStyles.css"
+
 export const Home = () => {
+
     return (
         <div>
             <Navbar></Navbar>

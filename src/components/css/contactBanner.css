@@ -37,3 +37,53 @@
     font-style: italic;
     font-size: 1em;
 }
+
+@media (max-width: 900px) {
+    #contacto-banner{
+        height: 500px;
+    }
+
+    #div-imagen{
+        display: none;
+    }
+
+    #div-texto{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 600px) {
+    #contacto-banner{
+        height: 300px;
+    }
+
+    #contacto-banner h3{
+        font-size: 1.7em;
+    }
+
+    #contacto-banner p{
+        font-size: 0.9em;
+    }
+
+    #contacto-banner a{
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 400px) {
+    #contacto-banner{
+        height: 270px;
+    }
+
+    #contacto-banner h3{
+        font-size: 1.5em;
+    }
+
+    #contacto-banner p{
+        font-size: 0.8em;
+    }
+
+    #contacto-banner a{
+        font-size: 0.8em;
+    }
+}

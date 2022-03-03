@@ -8,6 +8,7 @@
     min-height: 100px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
   }
   
   .footer h4{
@@ -91,3 +92,29 @@
     font-size: 1.5em;
   }
 
+
+  @media (max-width: 700px){
+    .footer div{
+      margin: 20px;
+    }
+  }
+
+  @media (max-width: 500px){
+    .footer h4{
+      font-size: 0.9em;
+    }
+
+    .footer p{
+      font-size: 0.8em;
+      margin-bottom: 5px;
+    }
+
+    #sobre{
+      margin: 0 !important;
+    }
+
+    .iconitos{
+      display: none;
+    }
+  }
+  

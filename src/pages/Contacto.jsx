@@ -8,12 +8,14 @@ import AboutUs from '../components/AboutUs'
 import Mapa from "../components/Mapa"
 import BannerContacto from '../components/BannerContacto'
 
+import "../components/css/generalStyles.css"
+
 export const Contacto = () => {
   return (
     <div>
         <Navbar></Navbar>
         <BannerContacto></BannerContacto>
-        <div className="d-flex mt-5">
+        <div className="d-flex mt-5" id="contact-map">
           <ContactForm motivo="Reclamos y Sugerencias"></ContactForm>
           <Mapa></Mapa>
         </div>

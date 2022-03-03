@@ -8,7 +8,7 @@ export const Footer = () => {
 
                         <div className="about-container">
                             <h4  className='mb-3' id="info">Sobre Nosotros</h4>
-                            <div>
+                            <div id="sobre">
                                 <p><a href="/contacto#pagos" target="_blank" rel="noopener noreferrer">Pagos</a></p>
                                 <p><a href="/contacto#formcontact" target="_blank" rel="noopener noreferrer">Reclamos</a></p>
                                 <p><a href="/contacto#formcontact" target="_blank" rel="noopener noreferrer">Sugerencias</a></p>
@@ -24,14 +24,14 @@ export const Footer = () => {
                         </div>
 
                         <div className="info-container">
-                        <h4 className='mb-3'> Medios de Pago</h4>
-                            <p><i className="fa fa-fw fa-cc-amex"></i> MercadoPago</p>
-                            <p><i className="fa fa-fw fa-cc-visa" id="card-m"></i> Transferencia/Efectivo</p>
-                            <div className="iconitos mt-2">
-                                <i className="fa fa-facebook-official w3-hover-opacity w3-large"></i>
-                                <i className="fa fa-instagram w3-hover-opacity w3-large"></i>
-                                <i className="fa fa-linkedin w3-hover-opacity w3-large"></i>
-                            </div>
+                            <h4 className='mb-3'> Medios de Pago</h4>
+                                <p><i className="fa fa-fw fa-cc-amex"></i> MercadoPago</p>
+                                <p><i className="fa fa-fw fa-cc-visa" id="card-m"></i> Transferencia/Efectivo</p>
+                                <div className="iconitos mt-2">
+                                    <i className="fa fa-facebook-official w3-hover-opacity w3-large"></i>
+                                    <i className="fa fa-instagram w3-hover-opacity w3-large"></i>
+                                    <i className="fa fa-linkedin w3-hover-opacity w3-large"></i>
+                                </div>
                         </div>
             </footer>
         </div>

@@ -1,6 +1,6 @@
 #banner{
     height: 400px;
-    width: 75%;
+    width: 84%;
     border: 1px solid rgb(207, 207, 207);
     border-radius: 10px;
     box-shadow: 0px 0px 8px 0px #00000080;
@@ -52,3 +52,75 @@
     background: url(../../assets/barreras.jpg);
     background-position: 60% 50%;
 }
+
+@media (max-width: 1200px) {
+    #banner{
+        height: 300px;
+    }
+
+    #banner h3{
+        font-size: 1.1em;
+    }
+
+    #banner p{
+        font-size: 0.8em;
+    }
+
+    #banner span{
+        font-size: 0.6em;
+    }
+
+    #banner a{
+        font-size: 0.8em;
+    }
+
+    .industrial{
+        background-size: cover;
+    }
+
+    .sillas{
+        background-size: cover;
+    }
+
+    .barreras{
+        background-size: cover;
+    }
+}
+
+@media (max-width:700px){
+    
+    .industrial{
+        background: url(../../assets/Banner-vacio.jpg);
+        background-size: cover;
+    }
+
+    .sillas{
+        background: url(../../assets/Banner-vacio.jpg);
+        background-size: cover;
+    }
+
+    .barreras{
+        background: url(../../assets/Banner-vacio.jpg);
+        background-size: cover;
+    }
+}
+
+
+@media (max-width:500px){
+    
+    .industrial{
+        background: url(../../assets/Banner-vacio.jpg);
+        background-position: 30%;
+    }
+
+    .sillas{
+        background: url(../../assets/Banner-vacio.jpg);
+        background-position: 30%;
+    }
+
+    .barreras{
+        background: url(../../assets/Banner-vacio.jpg);
+        background-position: 30%;
+    }
+}
+

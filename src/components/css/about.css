@@ -22,3 +22,31 @@
     max-width: 10%;
     filter: drop-shadow(0 2px 5px #00000080);
 }
+
+@media (max-width: 600px){
+    #aboutus h3{
+        font-size: 1.2em;
+    }
+
+    #aboutus p{
+        font-size: 0.9em;
+    }
+
+    #aboutus img{
+        max-width: 100px;
+    }
+}
+
+@media (max-width: 400px){
+    #aboutus h3{
+        font-size: 1.1em;
+    }
+
+    #aboutus p{
+        font-size: 0.7em;
+    }
+
+    #aboutus img{
+        max-width: 70px;
+    }
+}

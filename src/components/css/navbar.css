@@ -14,7 +14,7 @@
   
   .navbar-collapse{
     width: 100% !important;
-    display: flex !important;
+    display: flex;
     justify-content: space-around;
   }
   
@@ -32,4 +32,32 @@
   .iconos img{
     width: 30px;
     margin-right: 5px;
+  }
+
+  @media (max-width: 1200px) {
+    .navbar-nav{
+      width: 85% !important;
+    }
+  }
+
+  @media (max-width: 1050px) {
+    .iconos{
+      display: none;
+    }
+    .dropdown-menu{
+      background-color: rgb(88, 88, 88) !important;
+      text-align: center;
+    }
+    .dropdown-menu a{
+      color: white !important;
+    }
+    .dropdown-menu a:hover{
+      color: black !important;
+    }
+  }
+
+  @media (max-width: 400px){
+    a{
+      font-size: 0.7em;
+    }
   }

@@ -23,6 +23,7 @@ export class NavBar extends Component {
                         width="60"
                         height="40"
                         className="d-inline-block align-top"
+                        id="logo"
                     />{' '}
                 </Navbar.Brand>
 
