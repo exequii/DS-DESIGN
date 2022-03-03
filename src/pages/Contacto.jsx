@@ -16,7 +16,7 @@ export const Contacto = () => {
         <Navbar></Navbar>
         <BannerContacto></BannerContacto>
         <div className="d-flex mt-5" id="contact-map">
-          <ContactForm motivo="Reclamos y Sugerencias"></ContactForm>
+          <ContactForm motivo="Dejanos tu consulta"></ContactForm>
           <Mapa></Mapa>
         </div>
         <AboutUs></AboutUs>
