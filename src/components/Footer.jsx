@@ -4,14 +4,14 @@ import "./css/footer.css"
 export const Footer = () => {
     return (
         <div className="container-footer">
-            <footer className="footer">
+            <footer className="footer" id="footer">
 
                         <div className="about-container">
                             <h4  className='mb-3' id="info">Sobre Nosotros</h4>
                             <div id="sobre">
-                                <p><a href="/contacto#pagos" target="_blank" rel="noopener noreferrer">Pagos</a></p>
-                                <p><a href="/contacto#formcontact" target="_blank" rel="noopener noreferrer">Reclamos</a></p>
-                                <p><a href="/contacto#formcontact" target="_blank" rel="noopener noreferrer">Sugerencias</a></p>
+                                <p><a href="/contacto#footer" target="_blank" rel="noopener noreferrer">Pagos</a></p>
+                                <p><a href="/contacto#form-contact" target="_blank" rel="noopener noreferrer">Reclamos</a></p>
+                                <p><a href="/contacto#form-contact" target="_blank" rel="noopener noreferrer">Sugerencias</a></p>
                                 <p><a href="/contacto#aboutus" target="_blank" rel="noopener noreferrer">Historia</a></p>
                             </div>
                         </div>
