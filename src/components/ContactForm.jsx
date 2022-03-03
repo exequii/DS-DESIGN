@@ -27,6 +27,8 @@ export const ContactForm = (props) => {
     emailjs.sendForm('service_o5i91ra', 'template_9s2zccn', form.current, 'itWJhBeL5B3dSyqYj')
       .then((result) => {
           console.log("SUCCESS! - " + result.text);
+          setEmail("")
+          setTexto("")
           Swal.fire({
             title: 'Formulario Enviado!',
             text: 'Se ha enviado su mensaje correctamente',
