@@ -33,7 +33,7 @@ export class NavBar extends Component {
 
                     <Nav className="navbar-nav">
 
-                        <Nav.Link href='/barreras'>Barreras</Nav.Link>
+                        <Nav.Link href='/'>Home</Nav.Link>
 
                         <Nav.Link href='/sillas'>Sillas</Nav.Link>
 
