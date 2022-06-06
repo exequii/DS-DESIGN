@@ -101,7 +101,7 @@ const articulos = {
             { 
                 nombre: "Desayunador 3 Planos",
                 descripcion: "Medidas 85x100x30cm. Base de Caño de 20x40mm. Pintura epoxi horneable. 3 Maderas 25mm de espesor tonalizadas en 3 manos. Estantes defasados. ",
-                link: "",
+                link: "https://articulo.mercadolibre.com.ar/MLA-832748913-barra-diseno-industrial3-planos-1metro-x-30cm-altura-85cm-_JM?searchVariation=48634032554#searchVariation=48634032554&position=32&search_layout=grid&type=item&tracking_id=8bf42ce7-12db-468a-8f5d-5da5f66b4bf5",
                 imagen: Desayunador3Planos
             },
             { 
@@ -123,6 +123,12 @@ const articulos = {
                 descripcion: "Medidas 45x30x30cm. Base de caño de 25x25mm. Pintura epoxi horneable. Tapa madera 22mm espesor. Sellado y Laqueado.",
                 link: "https://articulo.mercadolibre.com.ar/MLA-848372888-taburete-de-hierro-y-madera-bajo-de-fabrica-_JM?searchVariation=53739087618#searchVariation=53739087618&position=2&search_layout=stack&type=item&tracking_id=fc20ccf8-ac78-4e69-ae22-f8dffb1d13d5",
                 imagen: TabureteBajo
+            },
+            { 
+                nombre: "Taburete Alto con Respaldo",
+                descripcion: "Medidas 45x30x30cm. Base de caño de 25x25mm. Pintura epoxi horneable. Tapa madera 22mm espesor. Sellado y Laqueado.",
+                link: "https://articulo.mercadolibre.com.ar/MLA-832745925-taburete-con-resspaldo-de-hierro-y-madera-para-cerveceria-_JM?searchVariation=48632999652#searchVariation=48632999652&position=5&search_layout=grid&type=item&tracking_id=f49e713c-b8e8-4429-8a9d-b9306bdd4266",
+                imagen: TabureteAlto
             }
         ]
     },
@@ -163,6 +169,12 @@ const articulos = {
             nombre: "Silla",
             descripcion: "",
             link: "",
+            imagen: BancoAlto
+        },
+        {
+            nombre: "Perchero",
+            descripcion: "Estructura metalica de barral central de 32mm de diametro con ganchos y patas en 16mm de diametro. Pintura en epoxi ,varios colores.",
+            link: "https://articulo.mercadolibre.com.ar/MLA-832754288-perchero-de-pie-de-cano-8-ganchos-para-colgar-el-mejor--_JM?searchVariation=174107915220#searchVariation=174107915220&position=10&search_layout=grid&type=item&tracking_id=8bf42ce7-12db-468a-8f5d-5da5f66b4bf5",
             imagen: BancoAlto
         }
     ]
